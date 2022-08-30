@@ -1,0 +1,62 @@
+
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+<link         href="https://www.fontzip.com/storage/2018/04/07/cursed-timer-ulil/webfonts/CursedTimerULiL.css"  rel="stylesheet" />                  
+    </head>
+    <body>
+        <div class="container">
+            <div class="container1">
+            <div class="score-col">
+                <h3>HOME</h3>
+                <div class="digital-screen">
+                    <p id="home-score" class="digital-num">0<p>
+                </div>
+                 <div class="score-btns">
+                    <input type="button" value="+1" id="btn" onclick="homeAdd1Btn()">
+                    <input type="button" value="+2" id="btn" onclick="homeAdd2Btn()">
+                    <input type="button" value="+3" id="btn" onclick="homeAdd3Btn()">
+                </div>
+            </div>
+          <!-- <div class="timer-cntainer">
+                <div>
+                <p id="timerp"><span id="minutes1">0</span><span id="minutes2">0</span>:<span id="seconds1">0</span><span id="seconds2">0</span></p>
+                </div>
+                <div id="timerbtn-container2">
+                <button type="button" name="start" id="timerbtn" onclick="startClock()">START CLOCK</button>
+              </div>
+
+              <div id="timerbtn-container3">
+                <button type="button" name="stop" onclick="stopClock()">STOP CLOCK</button>
+                <button type="button" name="reset" onclick="resetClock()">RESET CLOCK</button>
+              </div>
+              <div id="timerbtn-container4">
+                <button type="button" name="resetscore" onclick="resetScore()">RESET SCORE</button>
+              </div>
+            </div>
+            -->
+            <div class="score-col">
+                <h3>GUEST</h3>
+                <div class="digital-screen">
+                    <p id="guest-score" class="digital-num">0</p>
+                </div>
+                <div class="score-btns">
+                    <input type="button" value="+1" id="btn" onclick="guestAdd1Btn()">
+                    <input type="button" value="+2" id="btn" onclick="guestAdd2Btn()">
+                    <input type="button" value="+3" id="btn" onclick="guestAdd3Btn()">
+                </div>
+
+           
+            </div>
+                   
+
+            </div>
+          
+            
+               <div>
+                <button class="reset-btn" onclick="reset()">NEW GAME</button>
+               </div>
+        <script src="index.js"></script>
+        </div>
+    </body>
+</html>
